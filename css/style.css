@@ -1,0 +1,136 @@
+.container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;   
+}
+
+.heading{
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
+
+h1{
+    margin: 50px 0px 0px 30px;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 50px 0px 0px 30px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.fld{
+    
+    align-self: right;
+    margin: -50px -50px 60px -10px; 
+} 
+fieldset{
+    padding: auto;
+    width: 300px;
+    height: 350px;
+    margin: 250px 30px 60px 0px;
+    padding: 250px
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 7px 15px gray;
+    
+}
+
+.email{
+   margin: 15px;
+   width: 290;
+   padding: 15px;
+   border-color: white;
+   font-size: 18px;
+   border-radius: 6px;
+   outline: none;
+   caret-color: aqua;
+   box-shadow: 1px 1px;
+}
+.email:hover {
+    outline: none;
+    border: 2px solid #4711dd;
+}
+.pswrd{
+    margin-left: 15px;
+   width: 380;
+   padding: 15px;
+   border-color: white;
+   font-size: 18px;
+   border-radius: 6px;
+   outline: none;
+   caret-color: aqua;
+   box-shadow: 1px 1px;
+}
+.pswrd:hover{
+    outline: none;
+    border: 2px solid #4711dd;
+}
+.lo{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px;
+    text-align: center;
+    width: 260px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+.lo:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: double;
+}
+a{
+    display: inline-block;
+   text-decoration: none; 
+   text-align: center;
+   margin-left: 100px;
+}
+button{
+    /* display: inline-block; */
+    height: 40px;
+    width: 150px;
+    background-color: green;
+    align-self: center;
+    font-size: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50px;
+} 
+.btn:hover{
+   background-color: white;
+   border-color: black;
+   border-style: double;
+}
+#last{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin: -45px;
+    padding: 0px 20px 5px 1px;
+}
+.hr{
+    color: #eaecec;
+}
+body{
+    padding: auto;
+    margin: auto;
+    background-color: #eaecec;
+}
